@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    /* you can change your color */
+    background-color: rgba(16, 17, 16, 0.825);
+}
+
+.dropdown{
+    position: relative;
+    top: 17PX;
+    left: -10px;
+}
+
+nav{
+    display: flex;
+}
+
+nav a{
+    padding: 17px;
+    text-decoration: none;
+    color: rgb(230, 230, 239);
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.drop{
+    position: absolute;
+    display: none;
+    background-color: rgba(239, 240, 245, 0.895);
+    width: 100px;
+    z-index: 100;
+}
+
+.dropdown:hover .drop{
+    display: block;
+}
+
+.drop a{
+    display: block;
+    
+}
+
+.dropdown label{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

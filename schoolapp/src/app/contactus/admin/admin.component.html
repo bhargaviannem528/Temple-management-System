@@ -1,0 +1,47 @@
+<div class="container">
+    <form [formGroup]="Admin" (ngSubmit)="SignUpdata(Admin)" class="form-box1">
+        <h3> signup</h3>
+        <div class="form-group">
+            <label>First Name</label>
+            <br/>
+            <input type="text" formcontrolName="fname" class="form-control ab-3 mt-3" placeholder="Enter First Name"/>
+        </div> 
+       
+        <div class="form-group">
+            <label>Last Name</label>
+            <br/>
+            <input type="text" formcontrolName="lname" class="form-control ab-3 mt-3" placeholder="Enter Last Name"/>
+        </div>
+        <div class="form-group">
+
+            <label>email</label>
+            <br/>
+            <input type="email" formcontrolName="email" class="form-control ab-3 mt-3" placeholder="Enter mail"/>
+        </div>
+        <div class="form-group">
+            <label>phone number</label>
+            <br/>
+            <input type="text" formcontrolName="phone number" class="form-control ab-3 mt-3" placeholder="Enter phone number"/>
+        </div>
+    
+        
+        <div class="form-group">
+            <label>Password</label>
+            <br/>
+            <input type="password" formcontrolName="password" class="form-control ab-3 mt-3" placeholder="Enter password"/>
+        </div>
+        <div class="form-group">
+            <label>Confirm Password</label>
+            <br/>
+            <input type="password" formcontrolName=" confirm password" class="form-control ab-3 mt-3" placeholder="Enter confirm password"/>
+        </div>
+       
+        <span>you have already an account <a [routerLink]="['/login']">Login</a></span>
+        <br/>
+        <button type="submit" class="btn btn-success">signup</button>
+    </form>
+    
+</div>
+<div class="container text-center">
+    <img [src]="url" width="1530" height="700">
+</div>

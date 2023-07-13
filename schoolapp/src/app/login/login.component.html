@@ -1,0 +1,50 @@
+<!--<div class="container">
+    <form [formGroup]="login" (ngSubmit)="logindata(login)" class="form-box">
+        <h3>  Login</h3>
+       
+        <div class="form-group">
+            <label> Name</label>
+            <br/><br/>
+            <input type="text" formcontrolName="fname" class="form-control ab-3 mt-3" placeholder="Enter Name"/>
+        </div> 
+       
+        <div class="form-group">
+            <br/>
+            <label>Password</label>
+            <br/><br/>
+            <input type="password" formcontrolName="password" class="form-control ab-3 mt-3" placeholder="Enter password"/>
+        </div>
+        <br/>
+       
+       
+        <br/><br/>
+        <button type="submit" class="btn btn-success">login</button>
+</form>
+</div>
+<div class="container text-center">
+    <img [src]="url" width="1530" height="700">
+</div>-->
+<app-header></app-header>
+<body>
+    <div class="box">
+        <form autocomplete="off">
+            <h2>Sign in</h2>
+            <div class="inputBox">
+                <input type="text" required="required">
+                <span>Userame</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" required="required">
+                <span>Password</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="#">Forgot Password ?</a>
+                
+               
+            </div>
+            <a href="home3" input type="submit" class="btn btn-primary btn-block btn-lg" value="Login" >LOGIN</a>
+        </form>
+    </div>
+</body>
